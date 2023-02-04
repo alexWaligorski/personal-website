@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Alexandra Waligorski</title>
   </head>
   <body>
     <header>
       <h1>Welcome!</h1>
       <nav>
-        <a href="#about-me">About me</a>
+        <a href="#about-me">About</a>
         <a href="#interests">Interests</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -18,22 +19,21 @@
     <main>
       <section>
         <h2 id="about-me">Alex, who?</h2>
-        <figure>
-          <img
-            src="https://nodeforum.org/wp-content/uploads/alexandra_waligorski_1-1.jpg"
-            alt="picture of me"
-          />
-          <figcaption>
-            huuuuuuge image of me. thank god we are learning css tomorrow!
-          </figcaption>
-        </figure>
-        <p>
-          me, me, me, me, me, ahhhhhhhhhhhh.....a lot of me...and some more
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugiat
-          et totam tenetur neque voluptatibus incidunt suscipit praesentium
-          accusantium nihil eaque voluptates ut cupiditate sint quis, sed iure,
-          non officiis?
-        </p>
+        <div class="personal-intro">
+          <div>
+            <img
+              src="https://nodeforum.org/wp-content/uploads/alexandra_waligorski_1-1.jpg"
+              alt="picture of me"
+            />
+          </div>
+          <p>
+            me, me, me, me, me, ahhhhhhhhhhhh.....a lot of me...and some more
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+            fugiat et totam tenetur neque voluptatibus incidunt suscipit
+            praesentium accusantium nihil eaque voluptates ut cupiditate sint
+            quis, sed iure, non officiis?
+          </p>
+        </div>
       </section>
       <section>
         <h2 id="interests">Things I care about</h2>
@@ -64,7 +64,7 @@
     </main>
     <footer>
       <nav>
-        <ul>
+        <ul class="footer-nav">
           <li>Imprint</li>
           <li>Privacy</li>
           <li>© alex 2023</li>
