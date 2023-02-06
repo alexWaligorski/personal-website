@@ -9,59 +9,72 @@
   </head>
   <body>
     <header>
-      <h1>Welcome!</h1>
+      <div class="header-icon">?!</div>
       <nav>
         <a href="#about-me">About</a>
         <a href="#interests">Interests</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
-    <main>
-      <section>
-        <h2 id="about-me">Alex, who?</h2>
-        <div class="personal-intro">
-          <div>
+    <div class="page-content">
+      <main>
+        <section class="intro-section">
+          <h1 id="about-me">Hi, I'm Alex.</h1>
+          <div class="personal-intro">
+            <div class="bio-text">
+              <p>
+                I am a web developer, curator and art historian. After years of
+                encouraging kids and teens to learn programming, it's my turn to
+                be brave. As a participant in Neue Fische's Web Development
+                Bootcamp, I'm starting a new, professional chapter. Want to get
+                to know me? I'm looking for professional challenges. I enjoy
+                working in diverse teams with a passion for accessibility and
+                attention to detail.
+              </p>
+              <span class="tech-stack"
+                >#HTML #CSS #JavaScript #React #NODE.js #MongoDB</span
+              >
+            </div>
             <img
               src="https://nodeforum.org/wp-content/uploads/alexandra_waligorski_1-1.jpg"
               alt="picture of me"
             />
           </div>
+        </section>
+        <section class="section-container">
+          <h2 id="interests">Things I care about</h2>
+          <div class="interest-list">
+            <div class="interest-item">
+              <span class="interest-text">DIGITAL ART</span>
+              <a class="interest-link" href="https://nodeforum.org/">
+                → NODE Forum</a
+              >
+            </div>
+            <div class="interest-item">
+              <span class="interest-text">TECH FOR KIDS</span>
+              <a class="interest-link" href="https://www.digitale-welten.org/">
+                → Digitale Welten</a
+              >
+            </div>
+            <div class="interest-item">
+              <span class="interest-text">WOMEN IN TECH</span>
+              <a class="interest-link" href="https://moinworld.de/"
+                >→ moinworld</a
+              >
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 id="contact">Get in touch!</h2>
           <p>
-            me, me, me, me, me, ahhhhhhhhhhhh.....a lot of me...and some more
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-            fugiat et totam tenetur neque voluptatibus incidunt suscipit
-            praesentium accusantium nihil eaque voluptates ut cupiditate sint
-            quis, sed iure, non officiis?
+            This is a paragraph because it don't want another unordered list.
+            but probably this will change into a list tomorrow...because people
+            use linkedin and stuff...which must be linked...and has icons i
+            should use... goodnight!
           </p>
-        </div>
-      </section>
-      <section>
-        <h2 id="interests">Things I care about</h2>
-        <ul>
-          <li>
-            Digital Art and Creative Coding &#128073;
-            <a href="https://nodeforum.org/">NODE Forum</a>
-          </li>
-          <li>
-            Creative Coding Workshops for Kids &#128073;
-            <a href="https://www.digitale-welten.org/">Digitale Welten</a>
-          </li>
-          <li>
-            My dog &#128073;
-            <a href="https://i.redd.it/gan6b6zhn5f21.jpg">Woof!</a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 id="contact">Get in touch!</h2>
-        <p>
-          This is a paragraph because it don't want another unordered list. but
-          probably this will change into a list tomorrow...because people use
-          linkedin and stuff...which must be linked...and has icons i should
-          use... goodnight!
-        </p>
-      </section>
-    </main>
+        </section>
+      </main>
+    </div>
     <footer>
       <nav>
         <ul class="footer-nav">

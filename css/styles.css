@@ -8,44 +8,124 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.page-content {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
 header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
   height: 60px;
-  padding: 2em 2em 4em 2em;
+  position: fixed;
+  top: 0;
+  margin-bottom: 4em;
+  background-color: #f7f7f7;
+  box-shadow: 3px 3px 5px #e5eced;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
-main {
-  padding-left: 2em;
-  padding-right: 2em;
+.header-icon {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-footer {
-  padding-left: 2em;
-  padding-right: 2em;
+section {
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
 
-nav {
-  margin-left: auto;
+/* .section-container {
+  border: 2px solid #7da2a9;
+  padding: 3em;
+  border-radius: 20px;
+}
+ */
+.interest-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 6em;
+}
+
+.interest-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 185px;
+}
+
+.interest-text {
+  padding: 1.2em 1em 0.7em 1em;
+  background-color: #bfb3a7;
+  border-top: 1.5px solid black;
+  border-left: 1.5px solid black;
+  border-right: 1.5px solid black;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.interest-link {
+  border: 1.5px solid black;
+  width: 100%;
+  height: 40px;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  padding: 0.5em 1em 0.7em 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.intro-section {
+  margin-top: 120px;
 }
 
 .personal-intro {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 
 img {
-  width: 100px;
+  width: 200px;
   max-height: 200px;
   border-radius: 50%;
-  margin: 0em 2em 2em 0em;
+  border: 1px solid black;
+}
+
+.bio-text {
+  max-width: 60%;
+  margin: 1em 3em 4em 0em;
+  letter-spacing: 1px;
+}
+
+.tech-stack {
+  color: #7da2a9;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 h1,
 h2 {
   color: black;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  margin-bottom: 2em;
 }
 
 a {
@@ -65,8 +145,18 @@ ul li::before {
   margin-left: -1em;
 }
 
+footer {
+  background-color: #7da2a9;
+  height: 60px;
+  width: 100%;
+}
 .footer-nav {
+  width: 100%;
+  padding-top: 25px;
   display: flex;
-  gap: 40px;
+  gap: 50px;
   list-style: none;
+  align-items: baseline;
+  justify-content: left;
+  color: #e5eced;
 }
